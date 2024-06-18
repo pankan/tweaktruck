@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: inherit;
+}
+*:before, *:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #0c0f19;
+  font-family: "Anton", sans-serif;
+  color: #fff;
+}
+h6{
+  font-size: 2rem;
+  margin: 2rem;
+}
